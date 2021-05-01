@@ -8,7 +8,7 @@ const express = require('express');
 // Tells node that we are creating an "express" server
 const app = express();
 // Sets an initial port. We"ll use this later in our listener
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5500;
 
 // Sets up the Express app for data parsing
 app.use(express.urlencoded({ extended: true }));

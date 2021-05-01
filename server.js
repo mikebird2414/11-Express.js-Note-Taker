@@ -15,8 +15,8 @@ app.use(express.json());
 app.use("/assets", express.static("./assets"));
 
 
-require("./routing/html-routes")(app);
-require("./routing/api-routes")(app);
+require("./route/html-route")(app);
+require("./route/api-route")(app);
 
 // Starts the server to begin listening
 // =============================================================
